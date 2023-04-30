@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Library</title>
+    <link rel="icon" href="Pictures\favicon\Icon.png" type="Pictures\favicon\Icon.png">
+    <style>     /* Style the navigation bar */
+      nav {
+          background-color: #333;
+          overflow: hidden;
+        }
+  
+        /* Style the links inside the navigation bar */
+        nav a {
+          float: left;
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+  
+        /* Change the color of links on hover */
+        nav a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+        
+        
+        body {
+          font-family: Arial, sans-serif;
+          background-color: #F5F5F5;
+          margin: 0;
+          padding: 0;
+        }
+  
+        header {
+          background-color: #0074D9;
+          color: white;
+          padding: 10px;
+          text-align: center;
+        }
+  
+        nav {
+          background-color: #FFF;
+          border: 1px solid #DDD;
+          padding: 10px;
+          margin-bottom: 20px;
+        }
+  
+        nav ul {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          display: flex;
+          justify-content: center;
+        }
+  
+        nav li {
+          margin: 0 10px;
+        }
+  
+        nav a {
+          color: #0074D9;
+          text-decoration: none;
+          font-weight: bold;
+        }
+  
+        .container {
+          max-width: 800px;
+          margin: auto;
+          padding: 20px;
+          background-color: #FFF;
+          border: 1px solid #DDD;
+        }
+  
+        h1 {
+          margin-top: 0;
+          font-size: 36px;
+        }
+  
+        h2 {
+          margin-top: 0;
+          font-size: 24px;
+        }
+  
+        p {
+          line-height: 1.5;
+          margin-bottom: 20px;
+        }
+  
+        .book {
+          display: flex;
+          margin-bottom: 20px;
+        }
+  
+        .book img {
+          max-height: 200px;
+          margin-right: 20px;
+        }
+  
+        .book h3 {
+          margin-top: 0;
+          font-size: 24px;
+        }
+  
+        .book p {
+          margin-top: 0;
+        }
+  
+  
+        .book2 {
+          display: flex;
+          margin-bottom: 20px;
+        }
+  
+        .book2 img {
+          max-height: 200px;
+          margin-right: 20px;
+        }
+  
+        .book2 h3 {
+          margin-top: 0;
+          font-size: 24px;
+        }
+  
+        .book2 p {
+          margin-top: 0;
+        }
+  
+        footer {
+          background-color: #0074D9;
+          color: white;
+          padding: 10px;
+          text-align: center;
+          position: fixed;
+          bottom: 0;
+          width: 100%;
+        }
+  
+          /* = */
+          .menu-container {
+          position: absolute;
+          top: 10px;
+          left: 10px;
+          width: 30px;
+          height: 30px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          cursor: pointer;
+        }
+  
+        /* ...*/
+        .dot {
+          width: 100%;
+          height: 4px;
+          border-radius: 2px;
+          background-color: #333;
+        }
+  
+         /* ___ */
+         .my-button {
+          background-color: blue;
+          color: white;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+  
+        /* Change the button color when hovered over */
+        .my-button:hover {
+          background-color: gray;
+        }
+  
+  
+        nav {
+          display: flex;
+          align-items: center;
+        }
+        
+      
+  
+        
+  
+  /* ___ */
+  .my-button2 {
+      background-color: rgb(255, 0, 0);
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+      /* Change the button color when hovered over */
+      .my-button2:hover {
+          background-color: rgb(0, 0, 0);
+        }
+  </style>
+  </head>
+  <header>
+    <h1>Library</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="Home.html">Home</a></li>
+      <li><a href="Book.html">Books</a></li>
+      <li><a href="Contact us.html">Contact Us</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+
+
+<h1>phone number to enroll into classes or private classes are <br> (+95) 253 677 595</h1>
+<br><br> <p> If you want to contact the developer of this website, the email is <a href="good0choice0classes0for0free@gmail.com">good0choice0classes0for0free@gmail.com</a>
+</p>
+
+    <div class="menu-container" onclick="location.href='Contact us.html';">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      <footer>Contact Us <br>
+    
+        <button class="my-button" onclick="window.location.href = 'Contact us.html';">Click this button to contact me</button>
+      </footer>
+    
+    </div>
+  </body>
+</html>
